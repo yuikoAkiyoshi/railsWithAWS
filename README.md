@@ -1,0 +1,2 @@
+# railsWithAWS
+dockerを使用しないrailsアプリ
