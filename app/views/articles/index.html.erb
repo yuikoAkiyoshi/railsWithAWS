@@ -31,7 +31,7 @@
             <% if article.image? %>
               <%= image_tag article.image.url, :class => 'articles__cardImg' %>
             <% else %>
-              <%= image_tag "/assets/default.png", :class => 'articles__cardImg' %>
+              <%= image_tag asset_path("default.png", alt: "デフォルト画像"), :class => 'articles__cardImg' %>
             <% end %>
           </div>
           <div class="articles__cardTitle"><%= article.title %></div>
