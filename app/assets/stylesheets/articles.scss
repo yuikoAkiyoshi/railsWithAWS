@@ -319,7 +319,7 @@
       display: inline-block;
       width: 24px;
       height: 24px;
-      background: url(/assets/writeComment.png) no-repeat;
+      background: image-url('writeComment.png') no-repeat;
       background-size: contain;
     }
   }
@@ -359,7 +359,7 @@
       display: inline-block;
       width: 24px;
       height: 24px;
-      background: url(/assets/comments.png) no-repeat;
+      background: image-url('comments.png') no-repeat;
       background-size: contain;
     }
   }
